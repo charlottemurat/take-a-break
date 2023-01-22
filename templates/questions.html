@@ -1,18 +1,61 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-<title>questions</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans Symbols' rel='stylesheet'>
+	<title>Take a Break</title>
+	<link rel="stylesheet" href="practicecss.css">
+
 </head>
+
+
 <body>
+	<nav class="navbar">
+		<div class="nav-link-container">
+            <a class="nav-link" href="homepage.html" >Home</a>
+            <a class="nav-link" href="account.html" >Account</a>
+			<a class="nav-link-crisis" href="crisis.html">CRISIS</a>
+		</div>
+	</nav>
 
-    <div class="header">
-        <h1>Take a break</h1>
-    </div>
+	<section class="body-container">
+		<div class="body">
+			<div class="main-container">
+				<div class="button-container">
+					<a
+						href="questions.html" class="break_button">Take a break
+					</a>
+				</div>
+                <form action="aipage.html">
+                    <label for="time">How long do you need to take a break?</label>
+                    <select name="time" id="time">
+                      <option value="30 seconds">30 sec</option>
+                      <option value="5 minutes">5-10 min</option>
+                      <option value="10 minutes">10+ min</option>
+                    </select>
+                    <br><br>
+                    <label for="mood">How are you doing?</label>
+                    <select name="time" id="time">
+                      <option value="good">Good</option>
+                      
+                    </select>
+                    <br><br>
+                        <input type="submit" value="Start my break">
+                  </form>
+			</div>
+		</div>
+	</section>
+    <div></div>
+</body>
+
+</html>
 
 
+/*
     <div class="main">
         <form action="aipage.html">
             <label for="time">How long do you need to take a break?</label>
@@ -25,9 +68,7 @@
             <label for="mood">How are you doing?</label>
             <select name="time" id="time">
               <option value="good">Good</option>
-              <option value="bad">Bad</option>
-              <option value="sad">Sad</option>
-              <option value="mad">Mad</option>
+              
             </select>
             <br><br>
                 <input type="submit" value="Start my break">
@@ -35,4 +76,4 @@
     </div>
 
 </body>
-</html>
+</html> */
