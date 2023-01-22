@@ -27,7 +27,7 @@ def index():
     length = input("length: ")
     if length == 'short':
         size = 264
-    animal = "your mom"
+    animal = "cat"
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt="write a short story about a " + animal,
