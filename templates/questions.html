@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Noto Sans Symbols' rel='stylesheet'>
 	<title>Take a Break</title>
-	<link rel="stylesheet" href="practicecss.css">
+	<link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -24,28 +24,32 @@
 
 	<section class="body-container">
 		<div class="body">
-			<div class="main-container">
-				<div class="button-container">
-					<a
-						href="questions.html" class="break_button">Take a break
-					</a>
-				</div>
-                <form action="aipage.html">
-                    <label for="time">How long do you need to take a break?</label>
-                    <select name="time" id="time">
+			
+                <form style="padding-top: 50px"action="aipage.html">
+                    <label style="font-size: 30px" for="time">How long do you need to take a break?</label>
+                    <select style="font-size: 30px" name="time" id="time">
                       <option value="30 seconds">30 sec</option>
                       <option value="5 minutes">5-10 min</option>
                       <option value="10 minutes">10+ min</option>
                     </select>
                     <br><br>
-                    <label for="mood">How are you doing?</label>
-                    <select name="time" id="time">
-                      <option value="good">Good</option>
+                    <label style="font-size: 30px" for="mood">How are you doing?</label>
+                    <select style="font-size: 30px" name="time" id="time">
+                      <option value="anxious">Anxious</option>
+                      <option value="happy">Happy</option>
+                      <option value="sad">Sad</option>
+                      <option value="frustrated">Frustrated</option>
+                      <option value="neutral">Neutral</option>
                       
                     </select>
                     <br><br>
-                        <input type="submit" value="Start my break">
+                          <div class="main-container-start-break">
+                          <div class="button-container">
+                            <input type="submit" value="Start my break" class="start-my-break">
+                          </input>
+                          </div> 
                   </form>
+                  
 			</div>
 		</div>
 	</section>
@@ -53,27 +57,3 @@
 </body>
 
 </html>
-
-
-/*
-    <div class="main">
-        <form action="aipage.html">
-            <label for="time">How long do you need to take a break?</label>
-            <select name="time" id="time">
-              <option value="30 seconds">30 sec</option>
-              <option value="5 minutes">5-10 min</option>
-              <option value="10 minutes">10+ min</option>
-            </select>
-            <br><br>
-            <label for="mood">How are you doing?</label>
-            <select name="time" id="time">
-              <option value="good">Good</option>
-              
-            </select>
-            <br><br>
-                <input type="submit" value="Start my break">
-          </form>
-    </div>
-
-</body>
-</html> */

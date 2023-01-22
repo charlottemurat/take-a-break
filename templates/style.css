@@ -71,6 +71,7 @@ body {
     margin-bottom: 150px;
     width: 200px;
   }
+
   .main-container h2 {
       align-items: center;
       justify-content: center;
@@ -78,6 +79,7 @@ body {
       margin-bottom: 150px;
       width: 700px;
     }
+
   .break_button {
       color:white;
       text-decoration: none;
@@ -95,6 +97,44 @@ body {
       font-size: 50px;
       border-radius: 30px;
   }
+
+  .start-my-break {
+    background-color: #7ED286; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 30px;
+}
+.main-container-start-break {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
   
+
+.story-container {
+  background-color: #7ED286; /* Green */
+  border: none;
+  color: rgb(12, 12, 12);
+  padding: 30px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.story-container-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
   
   
