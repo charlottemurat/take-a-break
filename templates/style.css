@@ -1,53 +1,100 @@
+/* General styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-.header {
-    padding: 80px; /* some padding */
-    text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
-    color: white; /* white text color */
+    padding: 0px;
+    margin: 0;
+    background:linear-gradient(to bottom, #DCF3DF 0%, #7ED286 100%);;
+    font-family: 'Noto Sans Symbols';
+    min-height: 100%;
   }
   
-  /* Increase the font size of the <h1> element */
-  .header h1 {
-    font-size: 40px;
+  html {
+      /* To make use of full height of page*/
+      min-height: 100%;
+      margin: 0;
   }
   
-  /* Style the top navigation bar */
+  /*  Navbar styling  */
   .navbar {
-    overflow: hidden; /* Hide overflow */
-    background-color: #333; /* Dark background color */
-  }
-  
-  /* Style the navigation bar links */
-  .navbar a {
-    float: left; /* Make sure that the links stay side-by-side */
-    display: block; /* Change the display to block, for responsive reasons (see below) */
-    color: white; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 14px 20px; /* Add some padding */
-    text-decoration: none; /* Remove underline */
-  }
-  
-  /* Right-aligned link */
-  .navbar a.right {
-    float: right; /* Float a link to the right */
-  }
-  
-  /* Change color on hover/mouse-over */
-  .navbar a:hover {
-    background-color: #ddd; /* Grey background color */
-    color: black; /* Black text color */
-  }
-  
-  /* Ensure proper sizing */
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Column container */
-  .row {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
   }
+  .nav-link-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly; 
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .nav-link-crisis{
+    background-color: #d8d6d6;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+  
+  }
+  
+  
+  
+  /* Body styling */
+  .body-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  .body {
+    width: 60%;
+  }
+  
+  /* Centers the Take a break button */
+  
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 200px;
+  }
+  .main-container a {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+    width: 200px;
+  }
+  .main-container h2 {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 150px;
+      width: 700px;
+    }
+  .break_button {
+      color:white;
+      text-decoration: none;
+  }
+  
+  /* Styling for Take a Break button */
+  .button-container {
+      background-color: #7ED286; /* Green */
+      border: none;
+      color: white;
+      padding: 30px 40px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 50px;
+      border-radius: 30px;
+  }
+  
+  
+  
