@@ -49,7 +49,7 @@ body {
   .body-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 50px; 
   }
   .body {
     width: 60%;
@@ -84,6 +84,23 @@ body {
       color:white;
       text-decoration: none;
   }
+
+  .button-glow {
+    background-color: #7ED286; /* Green */
+    border: none;
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button-glow:hover, .button-glow:focus, .button-glow:active{
+  box-shadow: 0 0 70px rgb(255, 237, 99);
+}
   
   /* Styling for Take a Break button */
   .button-container {
@@ -126,7 +143,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .story-container-container {
@@ -212,3 +229,6 @@ body {
   padding-top: 0px;
   padding-left: 300px;
 }
+
+
+
