@@ -119,18 +119,25 @@ body {
     background-color: #7ED286; /* Green */
     border: none;
     color: white;
+    padding: 30px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
     border-radius: 30px;
+    cursor: pointer;
 }
+
+.start-my-break:hover, .start-my-break:focus, .start-my-break:active{
+  box-shadow: 0 0 70px rgb(252, 252, 250);
+}
+
 .main-container-start-break {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 80px;
+  padding-top: 0px;
 }
   
 
