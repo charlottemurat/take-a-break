@@ -99,7 +99,7 @@ body {
 }
 
 .button-glow:hover, .button-glow:focus, .button-glow:active{
-  box-shadow: 0 0 70px rgb(255, 237, 99);
+  box-shadow: 0 0 70px rgb(252, 252, 250);
 }
   
   /* Styling for Take a Break button */
@@ -186,7 +186,7 @@ body {
   border-radius: 30px;
 }
 .other-resources-button {
-  background-color: #87d3f7; 
+  background-color: #c4eccc; 
   border: none;
   color: rgb(0, 0, 0);
   padding: 15px 150px;
