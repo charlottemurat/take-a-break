@@ -43,7 +43,7 @@ body {
   
   }
   
-  
+/* Homepage */
   
   /* Body styling */
   .body-container {
@@ -97,4 +97,78 @@ body {
   }
   
   
-  
+  /* crisis page  */
+  .main-container-crisis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+
+  }
+  .emergency-contact-button {
+    background-color: #72e08d; 
+    border: none;
+    color: rgb(10, 10, 10);
+    padding: 30px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 30px;
+}
+.crisis-hotline-button {
+  background-color: #ee8b90; 
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 30px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 30px;
+}
+.other-resources-button {
+  background-color: #87d3f7; 
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+
+.account-info-button-container {
+  background-color: #7ED286; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 30px;
+}
+
+.account-fav-button-container {
+  background-color: #8abe8f; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 30px;
+}
+.fav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0px;
+  padding-left: 300px;
+}
